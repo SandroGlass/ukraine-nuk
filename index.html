@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukraine's Nuclear Disarmament Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include D3.js for interactive map visualization -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <section id="intro">
+            <div class="step-content">
+                <h1>Ukraine's Nuclear Disarmament</h1>
+                <h2>The Story of How Ukraine Gave Up the World's Third-Largest Nuclear Arsenal</h2>
+                <p>Scroll to explore the journey from nuclear power to disarmament</p>
+            </div>
+        </section>
+
+        <section id="scrolly">
+            <figure>
+                <div id="map-container">
+                    <!-- SVG map will be rendered here -->
+                    <svg id="ukraine-map-svg" width="800" height="600" preserveAspectRatio="xMidYMid meet"></svg>
+                </div>
+            </figure>
+
+            <div class="scroll-content">
+                <div class="step" data-step="1">
+                    <div class="step-content">
+                        <h3>1991: Ukraine After Soviet Collapse</h3>
+                        <p>Following the dissolution of the Soviet Union in 1991, Ukraine inherited the third-largest
+                            nuclear arsenal in the world, with approximately 1,900 strategic nuclear warheads, 176
+                            intercontinental ballistic missiles (ICBMs), and 44 strategic bombers.</p>
+                        <p>The map shows the extensive military and civilian nuclear facilities across Ukraine in 1991.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="2">
+                    <div class="step-content">
+                        <h3>The Budapest Memorandum, 1994</h3>
+                        <p>In December 1994, Ukraine signed the Budapest Memorandum on Security Assurances, agreeing to
+                            give up its nuclear weapons in exchange for security assurances from Russia, the United
+                            States, and the United Kingdom.</p>
+                        <p>The signatories promised to respect Ukraine's independence, sovereignty, and existing
+                            borders.</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="3">
+                    <div class="step-content">
+                        <h3>1994-1996: Strategic Nuclear Disarmament</h3>
+                        <p>Ukraine began dismantling its strategic nuclear warheads and bomber fleet. The process
+                            started with military nuclear facilities and strategic missile divisions.</p>
+                        <p>By 1996, all strategic nuclear weapons had been transferred to Russia for dismantling.</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="4">
+                    <div class="step-content">
+                        <h3>Nuclear Warhead Storage and Tactical Weapons</h3>
+                        <p>Ukraine also gave up its tactical nuclear weapons and decommissioned nuclear warhead storage
+                            facilities across the country.</p>
+                        <p>This represented a significant step toward global nuclear disarmament efforts.</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="5">
+                    <div class="step-content">
+                        <h3>Civilian Nuclear Power</h3>
+                        <p>Ukraine maintained its civilian nuclear power plants, which became crucial for the country's
+                            energy independence.</p>
+                        <p>Nuclear power plants such as Zaporizhzhia, South Ukrainian, Rivne, and Khmelnytskyi continued
+                            to operate for peaceful energy production.</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="6">
+                    <div class="step-content">
+                        <h3>2014: Security Assurances Violated</h3>
+                        <p>In 2014, Russia annexed Crimea, violating the security assurances given in the Budapest
+                            Memorandum.</p>
+                        <p>This action marked the beginning of territorial conflicts that would challenge Ukraine's
+                            security.</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="7">
+                    <div class="step-content">
+                        <h3>2022: Full-Scale Invasion</h3>
+                        <p>In February 2022, Russia launched a full-scale invasion of Ukraine, further violating the
+                            Budapest Memorandum commitments.</p>
+                        <p>The invasion resulted in Russian occupation of additional Ukrainian territories in the east
+                            and south.</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="8">
+                    <div class="step-content">
+                        <h3>The Legacy of Disarmament</h3>
+                        <p>Ukraine's decision to give up nuclear weapons represents one of the most significant acts of
+                            nuclear disarmament in history.</p>
+                        <p>The nation's experience raises important questions about nuclear deterrence and the value of
+                            security assurances in international relations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="outro">
+            <div class="step-content">
+                <h2>Reflecting on Ukraine's Nuclear Disarmament</h2>
+                <p>Ukraine's journey from nuclear power to disarmament showcases both the promise and challenges of
+                    international security agreements.</p>
+                <p>The current conflict has led many to reconsider the implications of Ukraine's decision to relinquish
+                    its nuclear arsenal and the reliability of security guarantees provided by global powers.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
